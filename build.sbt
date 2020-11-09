@@ -49,7 +49,7 @@ libraryDependencies ++= Seq(
 )
 
 // Kittens
-libraryDependencies += "org.typelevel" %% "kittens" % "2.1.0"
+libraryDependencies += "org.typelevel" %% "kittens" % "2.2.0"
 
 
 // Logging
