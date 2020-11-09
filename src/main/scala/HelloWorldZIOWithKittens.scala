@@ -41,7 +41,7 @@ object HelloWorldZIOWithKittens extends App{
     result2     = kedi.eqv(kedi)
     mikecik     = mike.map(a => a + " added")
     app        = lifted(Some(1), Some("a"), Some(3.2f))
-  } yield (kedicik.show,mikecik.show, app.show, result, result2, hashR)
+  } yield (kedicik.show,mikecik.show, app.show, result, result2)
 
 
 }
